@@ -76,7 +76,124 @@ header .right-header .search-bar .fa-magnifying-glass{
 }
 
 
-
-
-
+.main{
+  margin: 10px;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+ 
+}
 /* header section ends */
+
+.welcome{
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  color: rgb(96 92 92);
+  margin: 20px 0;
+}
+.homepage{
+  display: flex;
+  justify-content: space-between;
+}
+.homepage .homepage-left-column{
+  width: 50%;
+}
+.homepage .homepage-left-column .homepage-first-image, .homepage-right-column-first-image{
+  position: relative;
+}
+.homepage .homepage-left-column .homepage-first-image img{
+  width: 100%;
+}
+.homepage .homepage-left-column .homepage-description{
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  padding: 5px 10px;
+  color: #fff;
+  z-index: 2;
+}
+.homepage .homepage-left-column .homepage-description .title{
+  margin: auto;
+}
+
+.homepage .homepage-right-column{
+
+  width: 49%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.homepage .homepage-right-column .homepage-right-column-first-image{
+  width: 49%;
+  margin-bottom: 12px;
+}
+.homepage .homepage-right-column .homepage-right-column-first-image img{
+  max-width: 100%;
+  
+}
+.homepage .homepage-right-column .homepage-right-column-first-image .homepage-description{
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  padding: 0 10px;
+  color: #fff;
+  z-index: 2;
+}
+.homepage .homepage-right-column .homepage-right-column-first-image .homepage-description .title{
+  margin: auto;
+}
+/* homepage section ends *
+
+/* footer section starts */
+
+footer{
+  background-color: rgb(79, 77, 77);
+  color: #fff;
+}
+.footer-title{
+  color: #fff;
+  
+}
+.footer-menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-menu ul li {
+  width: 16%;
+}
+.footer-menu ul li a{
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  padding: 5px 0;
+  margin-right: 20px;
+  border-right: 1px solid #fff;
+}
+footer .terms{
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid rgb(247, 247, 247);
+}
+footer .terms ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+footer .terms ul li a{
+  text-decoration: none;
+  width: auto;
+  display: block;
+  font-size: 12px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+
+/* footer section ends */
